@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Overpass", serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+@layer components {
+  .btn {
+    position: relative;
+    top: 100%;
+    left: 10px;
+    background-image: url("../src/assets/side-header-img/citiSummary.svg");
+    background-size: cover;
+    z-index: 1;
+    box-shadow: -6px 7px 8px #0000004d;
+    border-radius: 10px;
+  }
+
+  .btn2 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/side-header-img/citiSummary.svg");
+    background-position: center;
+    z-index: 1;
+  }
+
+  .btn3 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/side-header-img/citiSummary.svg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .btn4 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/payDashboard/header/SendFundsIconBanner.png");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn5 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/allBanks/banks/chase/cs2.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .btn6 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/allBanks/banks/bankofamerica/boa4.svg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 116%;
+    background-position-x: 50%;
+    background-position-y: 25%;
+  }
+  .btn7 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/allBanks/banks/wellsfargo/wf2.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .btn8 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/home/banner.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card {
+    @apply bg-white shadow-md rounded-xl;
+  }
+
+  .linkBtn {
+    @apply flex items-center gap-[2px]  font-bold text-customBlue-500 hover:underline hover:text-customBlue-200;
+  }
+
+  .card2 {
+    box-shadow: 0 1px 10px #0000001f;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  .plaidButton {
+    @apply w-full py-4 text-xl font-bold text-white rounded-lg bg-customGray-1004 hover:bg-customGray-1005 transistion2;
+  }
+}
+
+@layer utilities {
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+  .box-shadow1 {
+    box-shadow: -6px 7px 8px #0000004d;
+  }
+  .box-shadow2 {
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  }
+  .box-shadow {
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  .box-shadow3 {
+    box-shadow: 0 1px 4px 0 rgba(118, 118, 118, 0.08);
+  }
+  .box-shadow4 {
+    box-shadow: 0 2px 4px #cccccc80;
+  }
+  .box-shadow5 {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  }
+  .box-shadow6 {
+    box-shadow: 0 2px 2px #00000024, 0 3px 1px -2px #0000001f, 0 1px 5px #0003;
+  }
+  .box-shadow7 {
+    box-shadow: 0 0 10px #00000040;
+  }
+
+  .transistion {
+    transition: all 0.1s ease;
+  }
+
+  .transistion1 {
+    transition: all 0.5s ease-in;
+  }
+
+  .transistion2 {
+    transition: all 0.2s linear;
+  }
+
+  .header {
+    @apply font-extrabold text-customGray-900;
+  }
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .no-spinner {
+    -moz-appearance: textfield;
+  }
+}
