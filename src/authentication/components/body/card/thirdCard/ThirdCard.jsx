@@ -2,9 +2,9 @@ import FirstPart from "./card/FirstPart";
 // import Card1 from "../../../../../assets/home/card/Card1.jpg";
 // import Card2 from "../../../../../assets/home/card/Card2.jpg";
 // import Card3 from "../../../../../assets/home/card/Card3.jpg";
-import Card1 from "@/assets/home/card/Card1.jpg";
-import Card2 from "@/assets/home/card/Card2.jpg";
-import Card3 from "@/assets/home/card/Card3.jpg";
+import Card1 from "@/assets/home/card/card1.jpg";
+import Card2 from "@/assets/home/card/card2.jpg";
+import Card3 from "@/assets/home/card/card3.jpg";
 
 const ThirdCard = () => {
   return (
