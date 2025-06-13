@@ -20,7 +20,7 @@ const DropDown = ({ options, selected, setSelected }) => {
           selected === "all" ? "gap-12" : "gap-12"
         )}
       >
-        {options.find((opt) => opt.value === selected).label}
+        {options.find((opt) => opt.value === selected)?.label}
         <span className="">
           {isOpen ? <BsChevronUp size={28} /> : <BsChevronDown size={28} />}
         </span>
