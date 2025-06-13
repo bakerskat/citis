@@ -150,7 +150,7 @@ const useExternalArrays = () => {
             },
             {
               id: 8,
-              path: "/payment-transfer-activity",
+              path: "/domestic/input",
               element: "Payment & Transfer Activity",
             },
             { id: 9, path: "/payDashboard/bills", element: "Pay Bills" },
@@ -162,7 +162,7 @@ const useExternalArrays = () => {
           children: [
             {
               id: 11,
-              path: "/your-citi-accounts",
+              path: "/dashboard",
               element: "Your Citi Accounts",
             },
             {
