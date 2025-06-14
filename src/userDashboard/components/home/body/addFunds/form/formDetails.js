@@ -19,31 +19,33 @@ export const formDetails = [
 export const formDetails1 = [
   {
     id: 1,
-    label: "Checking-2206",
+    label: "Checking-5796",
   },
   {
     id: 2,
-    label: "Citi® Savings Account-3281",
+    label: "Citi® Savings Account-3579",
   },
   {
     id: 3,
     label: "Chime Checking:2071",
   },
 ];
+
 // export const formDetails1 = [
 //   {
 //     id: 1,
-//     label: "Checking-5747",
+//     label: "Checking-2206",
 //   },
 //   {
 //     id: 2,
-//     label: "Citi® Savings Account-7847",
+//     label: "Citi® Savings Account-3281",
 //   },
 //   {
 //     id: 3,
 //     label: "Chime Checking:2071",
 //   },
 // ];
+
 // export const formDetails1 = [
 //   {
 //     id: 1,
