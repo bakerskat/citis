@@ -696,15 +696,15 @@ export const transactions = [
   },
   {
     id: 24,
-    date: "2023-10-22",
+    date: "2023-09-30",
     type: "credit",
-    description: "Client Payment - Africa Drilling Contract",
+    description: "Client Payment - Drilling Contract",
     transac: "Transfer",
     amount: 306488,
   },
   {
     id: 25,
-    date: "2023-11-30",
+    date: "2023-09-22",
     type: "debit",
     description: "Purchase - Field Laptop",
     transac: "Transfer",
