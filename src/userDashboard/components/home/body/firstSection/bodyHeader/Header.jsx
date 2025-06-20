@@ -27,8 +27,7 @@ const Header = () => {
       element: "Checking",
       elemetNumber: `-${checkingNav}`,
       amount: numberChecking,
-      available: "Account Restricted",
-      // available: "Available Now",
+      available: "Available Now",
       add: "Add Funds",
     },
     {
