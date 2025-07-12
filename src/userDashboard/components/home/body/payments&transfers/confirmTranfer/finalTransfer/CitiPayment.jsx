@@ -12,7 +12,7 @@ const CitiPayment = ({ cancel }) => {
   const { user } = useContext(AuthContext);
   const { tyoeOfPhone } = useContext(GeneralContext);
   // const atRemoved = user.email.indexOf("@");
-  const atRemoved = user.email.indexOf("acosta");
+  const atRemoved = user.email.indexOf("george");
   const removetheAt = user.email.slice(0, atRemoved);
   const userName = removetheAt.replace(/[0-9]/g, "");
 
