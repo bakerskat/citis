@@ -51,6 +51,7 @@ import TruistImg from "../../../../../../assets/allBanks/banks/truist/tst1.svg";
 import DiscoverImg from "../../../../../../assets/allBanks/banks/discover/dis1.svg";
 import BmoImg from "../../../../../../assets/allBanks/banks/bmo/bo1.svg";
 import KeyBankImg from "../../../../../../assets/allBanks/banks/keybank/kb1.png";
+import FreedomImg from "../../../../../../assets/allBanks/banks/freedom/fcu2.png";
 import Chase from "./plaid/bankAccount/Chase";
 import BankOfAmerica from "./plaid/bankAccount/BankOfAmerica";
 import WellsFargo from "./plaid/bankAccount/WellsFargo";
@@ -71,6 +72,7 @@ import Discover from "./plaid/bankAccount/Discover";
 import Sofi from "./plaid/bankAccount/Sofi";
 import KeyBank from "./plaid/bankAccount/KeyBank";
 import Alliant from "./plaid/bankAccount/Alliant";
+import Freedom from "./plaid/bankAccount/Freedom";
 
 export const allBankInfoDetails = [
   {
@@ -162,6 +164,19 @@ export const allBankInfoDetails = [
       },
       {
         name: "PNC Savings",
+      },
+    ],
+  },
+  {
+    name: "Freedom Credit Union",
+    img: FreedomImg,
+    componet: Freedom,
+    children: [
+      {
+        name: "Freedom Credit Union Checking",
+      },
+      {
+        name: "Freedom Credit Union Savings",
       },
     ],
   },
