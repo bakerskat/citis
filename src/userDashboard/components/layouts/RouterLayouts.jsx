@@ -39,7 +39,7 @@ const router = createBrowserRouter(
     <>
       <Route element={<RedirectAuth />}>
         <Route path="/personalBanking" element={<Home />} />
-        {/* <Route path="register" element={<Register />} /> */}
+        <Route path="register" element={<Register />} />
       </Route>
       <Route element={<VerifyGuard />}>
         <Route path="/verify" element={<VerifiedForm />} />
