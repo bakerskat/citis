@@ -6,7 +6,15 @@ const BankControl = ({
   handleSelectedId,
   selectedPath,
   handleSelectSubmit,
+  setNextPass,
+  setNextLoad,
 }) => {
+  const newButton = () => {
+    handleSelectSubmit();
+    setNextPass(false);
+    setNextLoad(false);
+  };
+
   return (
     <>
       <AdminLink>
@@ -28,7 +36,7 @@ const BankControl = ({
             </div>
             <button
               className="w-full py-2 mt-2 font-bold text-white rounded bg-customBlue-500"
-              onClick={handleSelectSubmit}
+              onClick={newButton}
             >
               Submit
             </button>

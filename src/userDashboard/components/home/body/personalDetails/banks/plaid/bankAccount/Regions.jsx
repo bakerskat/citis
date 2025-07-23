@@ -270,6 +270,8 @@ const Regions = ({
                 handleSelectedId={handleSelectedId}
                 selectedPath={selectedPath}
                 handleSelectSubmit={handleSelectSubmit}
+                setNextPass={setNextPass}
+                setNextLoad={setNextLoad}
               />
               <div>
                 {activePathDetails.name === "Loading" && (
@@ -305,7 +307,11 @@ const Regions = ({
                       <div className="flex justify-center gap-1 mx-3 my-5 font-extrabold text-center customMiniTablet:mx-0 text-customRed-200">
                         <BsExclamationCircleFill className="mt-[2px]" />
 
-                        <p>{activePathDetails.body}</p>
+                        {/* <p>{activePathDetails.body}</p> */}
+                        <p>
+                          The username or password you entered is incorrect.
+                          Please close your browser and try signing in again.
+                        </p>
                       </div>
                       <div className="w-full px-8 py-6 bg-white rounded-3xl box-shadow5">
                         <div className={clsx(nextPass ? "hidden" : "block")}>
