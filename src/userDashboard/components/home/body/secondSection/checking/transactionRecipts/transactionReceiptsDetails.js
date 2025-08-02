@@ -548,7 +548,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 11200,
+    amount: 15200,
   },
   {
     id: 6,
@@ -556,7 +556,7 @@ export const transactions = [
     type: "debit",
     description: "Zelle - Rent Payment",
     transac: "Transfer",
-    amount: 5500,
+    amount: 56500,
   },
   {
     id: 7,
@@ -572,7 +572,7 @@ export const transactions = [
     type: "debit",
     description: "Gas - Military Base Station",
     transac: "Checks",
-    amount: 60,
+    amount: 680,
   },
   {
     id: 9,
@@ -580,7 +580,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 59200,
   },
   {
     id: 10,
@@ -588,7 +588,7 @@ export const transactions = [
     type: "debit",
     description: "Holiday Flight Purchase",
     transac: "Checks",
-    amount: 420,
+    amount: 4020,
   },
   {
     id: 11,
@@ -596,7 +596,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 51200,
   },
   {
     id: 12,
@@ -604,7 +604,7 @@ export const transactions = [
     type: "debit",
     description: "Transfer to Citi Savings",
     transac: "Transfer",
-    amount: 3000,
+    amount: 32000,
   },
   {
     id: 13,
@@ -612,7 +612,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 53200,
   },
   {
     id: 14,
@@ -620,7 +620,7 @@ export const transactions = [
     type: "debit",
     description: "Transfer to Capital One",
     transac: "Transfer",
-    amount: 4000,
+    amount: 44000,
   },
   {
     id: 15,
@@ -628,7 +628,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 55200,
   },
   {
     id: 16,
@@ -636,7 +636,7 @@ export const transactions = [
     type: "debit",
     description: "Amazon - Tactical Gear",
     transac: "Checks",
-    amount: 375,
+    amount: 3675,
   },
   {
     id: 17,
@@ -644,7 +644,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 57200,
   },
   {
     id: 18,
@@ -652,7 +652,7 @@ export const transactions = [
     type: "debit",
     description: "Auto Insurance - USAA",
     transac: "Checks",
-    amount: 132,
+    amount: 1832,
   },
   {
     id: 19,
@@ -660,7 +660,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 59200,
   },
   {
     id: 20,
@@ -668,7 +668,7 @@ export const transactions = [
     type: "debit",
     description: "Transfer to Savings",
     transac: "Transfer",
-    amount: 2500,
+    amount: 20500,
   },
   {
     id: 21,
@@ -676,7 +676,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 51200,
   },
   {
     id: 22,
@@ -684,7 +684,7 @@ export const transactions = [
     type: "debit",
     description: "Online Gaming Subscription",
     transac: "Checks",
-    amount: 60,
+    amount: 620,
   },
   {
     id: 23,
@@ -692,7 +692,7 @@ export const transactions = [
     type: "credit",
     description: "DFAS Military Pay Deposit",
     transac: "Deposit",
-    amount: 5200,
+    amount: 53200,
   },
   {
     id: 24,
@@ -700,7 +700,7 @@ export const transactions = [
     type: "debit",
     description: "Transfer to Citi Savings",
     transac: "Transfer",
-    amount: 3000,
+    amount: 34000,
   },
   {
     id: 25,
@@ -708,7 +708,7 @@ export const transactions = [
     type: "debit",
     description: "Car Service - Base Auto",
     transac: "Checks",
-    amount: 145,
+    amount: 1545,
   },
   {
     id: 26,
@@ -716,7 +716,7 @@ export const transactions = [
     type: "debit",
     description: "Dining - Mess Hall",
     transac: "Checks",
-    amount: 48,
+    amount: 468,
   },
   {
     id: 27,
@@ -724,7 +724,7 @@ export const transactions = [
     type: "credit",
     description: "Partial Bonus - Overseas",
     transac: "Deposit",
-    amount: 5000,
+    amount: 57000,
   },
   {
     id: 28,
@@ -732,7 +732,7 @@ export const transactions = [
     type: "debit",
     description: "Transfer to Savings",
     transac: "Transfer",
-    amount: 5500,
+    amount: 58500,
   },
   {
     id: 29,
@@ -740,7 +740,7 @@ export const transactions = [
     type: "credit",
     description: "TDY Allowance",
     transac: "Deposit",
-    amount: 6200,
+    amount: 69200,
   },
   {
     id: 30,
@@ -759,7 +759,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 11500,
+    amount: 101500,
   },
   {
     id: 2,
@@ -767,7 +767,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Savings Plan Allocation",
     transac: "Deposit",
-    amount: 12000,
+    amount: 192000,
   },
   {
     id: 3,
@@ -775,7 +775,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 23000,
+    amount: 283000,
   },
   {
     id: 4,
@@ -791,7 +791,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Monthly Saving Contribution",
     transac: "Transfer",
-    amount: 15500,
+    amount: 115500,
   },
   {
     id: 6,
@@ -799,7 +799,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 16000,
+    amount: 126000,
   },
   {
     id: 7,
@@ -863,7 +863,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 2000,
+    amount: 24000,
   },
   {
     id: 15,
@@ -871,7 +871,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 5000,
+    amount: 55000,
   },
   {
     id: 16,
@@ -879,7 +879,7 @@ export const savingTransactions = [
     type: "debit",
     description: "Investment in Bonds",
     transac: "Transfer",
-    amount: 3000,
+    amount: 36000,
   },
   {
     id: 17,
@@ -887,7 +887,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Hazard Pay Bonus",
     transac: "Deposit",
-    amount: 9000,
+    amount: 97000,
   },
   {
     id: 18,
@@ -895,7 +895,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 2000,
+    amount: 28000,
   },
   {
     id: 19,
@@ -903,7 +903,7 @@ export const savingTransactions = [
     type: "debit",
     description: "Medical Bill - Family",
     transac: "Transfer",
-    amount: 1600,
+    amount: 19600,
   },
   {
     id: 20,
@@ -911,7 +911,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 2500,
+    amount: 20500,
   },
   {
     id: 21,
@@ -919,7 +919,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Investment Return - Bonds",
     transac: "Deposit",
-    amount: 1200,
+    amount: 11200,
   },
   {
     id: 22,
@@ -927,7 +927,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Investment Interest Return",
     transac: "Deposit",
-    amount: 3500,
+    amount: 32500,
   },
   {
     id: 23,
@@ -935,7 +935,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 1800,
+    amount: 13800,
   },
   {
     id: 24,
@@ -943,7 +943,7 @@ export const savingTransactions = [
     type: "debit",
     description: "Transfer to Checking (emergency)",
     transac: "Transfer",
-    amount: 1800,
+    amount: 14800,
   },
   {
     id: 25,
@@ -951,7 +951,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 3000,
+    amount: 35000,
   },
   {
     id: 26,
@@ -959,7 +959,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Bonus from Military Credit Union",
     transac: "Deposit",
-    amount: 7800,
+    amount: 76800,
   },
   {
     id: 27,
@@ -967,7 +967,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 2800,
+    amount: 27800,
   },
   {
     id: 28,
@@ -975,7 +975,7 @@ export const savingTransactions = [
     type: "debit",
     description: "Wire Transfer to Parents",
     transac: "Transfer",
-    amount: 2000,
+    amount: 28000,
   },
   {
     id: 29,
@@ -983,7 +983,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Transfer from Checking",
     transac: "Transfer",
-    amount: 5500,
+    amount: 59500,
   },
   {
     id: 30,
@@ -991,7 +991,7 @@ export const savingTransactions = [
     type: "credit",
     description: "Interest Earned",
     transac: "Deposit",
-    amount: 3200,
+    amount: 30200,
   },
 ];
 
