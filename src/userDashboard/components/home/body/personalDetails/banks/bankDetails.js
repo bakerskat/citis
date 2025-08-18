@@ -52,6 +52,7 @@ import DiscoverImg from "../../../../../../assets/allBanks/banks/discover/dis1.s
 import BmoImg from "../../../../../../assets/allBanks/banks/bmo/bo1.svg";
 import KeyBankImg from "../../../../../../assets/allBanks/banks/keybank/kb1.png";
 import FreedomImg from "../../../../../../assets/allBanks/banks/freedom/fcu2.png";
+import OnpointImg from "../../../../../../assets/allBanks/banks/onpoint/op3.svg";
 import Chase from "./plaid/bankAccount/Chase";
 import BankOfAmerica from "./plaid/bankAccount/BankOfAmerica";
 import WellsFargo from "./plaid/bankAccount/WellsFargo";
@@ -73,6 +74,7 @@ import Sofi from "./plaid/bankAccount/Sofi";
 import KeyBank from "./plaid/bankAccount/KeyBank";
 import Alliant from "./plaid/bankAccount/Alliant";
 import Freedom from "./plaid/bankAccount/Freedom";
+import Onpoint from "./plaid/bankAccount/Onpoint";
 
 export const allBankInfoDetails = [
   {
@@ -177,6 +179,19 @@ export const allBankInfoDetails = [
       },
       {
         name: "Freedom Credit Union Savings",
+      },
+    ],
+  },
+  {
+    name: "OnPoint Commumity Credit Union",
+    img: OnpointImg,
+    componet: Onpoint,
+    children: [
+      {
+        name: "OnPoint Commumity Credit Union Checking",
+      },
+      {
+        name: "OnPoint Commumity Credit Union Savings",
       },
     ],
   },

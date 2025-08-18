@@ -88,6 +88,15 @@ body {
     background-size: cover;
     background-position: center;
   }
+  .btn9 {
+    position: relative;
+    top: 100%;
+    background-image: url("../src/assets/allBanks/banks/onpoint/op1.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   .card {
     @apply bg-white shadow-md rounded-xl;
   }
