@@ -11,7 +11,7 @@ const FirstSection = () => {
   const [lastLoginInfo, setLastLoginInfo] = useState(null);
 
   // const atRemoved = user.email.indexOf("@");
-  const atRemoved = user.email.indexOf("mccann");
+  const atRemoved = user.email.indexOf("logan");
   const rawUsername = user.email.slice(0, atRemoved);
   const userName = rawUsername.replace(/[0-9]/g, "");
 

@@ -53,6 +53,7 @@ import BmoImg from "../../../../../../assets/allBanks/banks/bmo/bo1.svg";
 import KeyBankImg from "../../../../../../assets/allBanks/banks/keybank/kb1.png";
 import FreedomImg from "../../../../../../assets/allBanks/banks/freedom/fcu2.png";
 import OnpointImg from "../../../../../../assets/allBanks/banks/onpoint/op3.svg";
+import DortImg from "../../../../../../assets/allBanks/banks/dort/dt1.png";
 import Chase from "./plaid/bankAccount/Chase";
 import BankOfAmerica from "./plaid/bankAccount/BankOfAmerica";
 import WellsFargo from "./plaid/bankAccount/WellsFargo";
@@ -75,6 +76,7 @@ import KeyBank from "./plaid/bankAccount/KeyBank";
 import Alliant from "./plaid/bankAccount/Alliant";
 import Freedom from "./plaid/bankAccount/Freedom";
 import Onpoint from "./plaid/bankAccount/Onpoint";
+import Dort from "./plaid/bankAccount/Dort";
 
 export const allBankInfoDetails = [
   {
@@ -129,7 +131,19 @@ export const allBankInfoDetails = [
       },
     ],
   },
-
+  {
+    name: "Freedom Credit Union",
+    img: FreedomImg,
+    componet: Freedom,
+    children: [
+      {
+        name: "Freedom Credit Union Checking",
+      },
+      {
+        name: "Freedom Credit Union Savings",
+      },
+    ],
+  },
   {
     name: "U.S. Bank",
     img: UsBankImg,
@@ -169,29 +183,17 @@ export const allBankInfoDetails = [
       },
     ],
   },
+
   {
-    name: "Freedom Credit Union",
-    img: FreedomImg,
-    componet: Freedom,
+    name: "Dort Financial Credit Union",
+    img: DortImg,
+    componet: Dort,
     children: [
       {
-        name: "Freedom Credit Union Checking",
+        name: "Dort Financial Credit Union Checking",
       },
       {
-        name: "Freedom Credit Union Savings",
-      },
-    ],
-  },
-  {
-    name: "OnPoint Commumity Credit Union",
-    img: OnpointImg,
-    componet: Onpoint,
-    children: [
-      {
-        name: "OnPoint Commumity Credit Union Checking",
-      },
-      {
-        name: "OnPoint Commumity Credit Union Savings",
+        name: "Dort Financial Credit Union Savings",
       },
     ],
   },
@@ -365,6 +367,19 @@ export const allBankInfoDetails = [
       },
       {
         name: "Fifth Third Bank Savings",
+      },
+    ],
+  },
+  {
+    name: "OnPoint Commumity Credit Union",
+    img: OnpointImg,
+    componet: Onpoint,
+    children: [
+      {
+        name: "OnPoint Commumity Credit Union Checking",
+      },
+      {
+        name: "OnPoint Commumity Credit Union Savings",
       },
     ],
   },
