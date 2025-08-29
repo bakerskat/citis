@@ -279,6 +279,15 @@ export const transactions = [
     transac: "ATM",
     amount: 300,
   },
+  {
+    id: 35,
+    date: "2025-08-28",
+    type: "debit",
+    description:
+      "WIRE TRANSFER DEBIT TO UNION BANK & TRUSTED COMPANY REF# 5938XXXX",
+    transac: "Transfer",
+    amount: 5000,
+  },
 ];
 
 export const savingTransactions = [
