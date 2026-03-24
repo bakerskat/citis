@@ -70,6 +70,16 @@ const FinalTransfer = () => {
       setInitialPayment(!isCitiAccount);
       setTransferLoading(false);
     }, 2000);
+    setTimeout(() => {
+      setCitiPayment(!isCitiAccount);
+      setInitialPayment(isCitiAccount);
+      setTransferLoading(false);
+    }, 2000);
+    // setTimeout(() => {
+    //   setCitiPayment(isCitiAccount);
+    //   setInitialPayment(!isCitiAccount);
+    //   setTransferLoading(false);
+    // }, 2000);
   };
 
   const handleDelete = async () => {
@@ -173,7 +183,7 @@ const FinalTransfer = () => {
                     onClick={handleTransfer}
                     className={clsx(
                       "py-3 font-bold  rounded-lg  w-full   bg-customBlue-500 border-none text-white  hover:bg-customBlue-300 transistion2",
-                      transferLoading && "bg-opacity-40"
+                      transferLoading && "bg-opacity-40",
                     )}
                   >
                     {transferLoading && <ClipLoader size={10} color="#fff" />}
