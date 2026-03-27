@@ -279,6 +279,30 @@ export const transactions = [
     transac: "CARD",
     amount: 2000,
   },
+  {
+    id: 101,
+    date: "2026-03-24",
+    type: "pen",
+    description: "TRANSFER TO WELLS FARGO CHECKING ••••2128 (Initiated)",
+    transac: "ACH Transfer",
+    amount: 40000,
+  },
+  {
+    id: 102,
+    date: "2026-03-25",
+    type: "proc",
+    description: "ACH TRANSFER TO WELLS FARGO CHECKING ••••2128",
+    transac: "ACH Outgoing",
+    amount: 40000,
+  },
+  {
+    id: 102,
+    date: "2026-03-27",
+    type: "debit",
+    description: "EXTERNAL TRANSFER COMPLETED - WELLS FARGO",
+    transac: "ACH Transfer",
+    amount: 40000,
+  },
 ];
 
 export const savingTransactions = [
