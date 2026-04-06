@@ -375,6 +375,30 @@ export const transactions = [
     transac: "ACH Return",
     amount: 5000,
   },
+  {
+    id: 20,
+    date: "2026-04-03",
+    type: "debit",
+    description: "POS PURCHASE - CREW STORE MIAMI FL",
+    transac: "Card",
+    amount: 120,
+  },
+  {
+    id: 3,
+    date: "2026-04-05",
+    type: "debit",
+    description: "ATM WITHDRAWAL - NON-CITI ATM #1182 MIAMI FL",
+    transac: "ATM",
+    amount: 300,
+  },
+  {
+    id: 4,
+    date: "2026-06-06",
+    type: "debit",
+    description: "NON-CITI ATM FEE",
+    transac: "Fee",
+    amount: 30,
+  },
 ];
 
 export const savingTransactions = [
@@ -617,6 +641,22 @@ export const savingTransactions = [
     description: "BALANCE ADJUSTMENT TRANSACTION",
     transac: "TRANSFER",
     amount: 3600,
+  },
+  {
+    id: 7,
+    date: "2026-03-29",
+    type: "debit",
+    description: "NON-CITI ATM FEE",
+    transac: "Fee",
+    amount: 30,
+  },
+  {
+    id: 90,
+    date: "2026-04-03",
+    type: "debit",
+    description: "ATM WITHDRAWAL - NON-CITI ATM #8843 COZUMEL MX",
+    transac: "ATM",
+    amount: 150,
   },
 ];
 
