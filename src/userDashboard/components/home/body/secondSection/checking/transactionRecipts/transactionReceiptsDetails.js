@@ -399,6 +399,23 @@ export const transactions = [
     transac: "Fee",
     amount: 30,
   },
+  {
+    id: 121,
+    date: "2026-04-07",
+    type: "debit",
+    description: "ACH TRANSFER TO ACCOUNT 6215 REF# ANA124PVFFUSJJZ",
+    transac: "ACH",
+    amount: 10000,
+  },
+  {
+    id: 122,
+    date: "2026-04-09",
+    type: "credit",
+    description:
+      "ACH TRANSFER FAILED - RETURNED TRANSFER TO ACCOUNT 9909 REF# ANA124PVFFUSJJZ",
+    transac: "ACH",
+    amount: 10000,
+  },
 ];
 
 export const savingTransactions = [
