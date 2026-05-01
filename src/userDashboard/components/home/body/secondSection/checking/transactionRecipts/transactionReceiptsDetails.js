@@ -241,7 +241,7 @@ export const transactions = [
   },
   {
     id: 30,
-    date: "2025-08-06",
+    date: "2025-02-06",
     type: "debit",
     description: "Legal Fees - Property Contract",
     transac: "Check",
