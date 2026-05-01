@@ -240,6 +240,14 @@ export const transactions = [
     amount: 9182,
   },
   {
+    id: 30,
+    date: "2025-08-06",
+    type: "debit",
+    description: "Legal Fees - Property Contract",
+    transac: "Check",
+    amount: 450000,
+  },
+  {
     id: 32,
     date: "2026-05-01",
     type: "credit",
@@ -280,7 +288,7 @@ export const savingTransactions = [
     type: "debit",
     description: "Crypto Investment Withdrawal",
     transac: "Transfer",
-    amount: 15000,
+    amount: 700000,
   },
   {
     id: 5,
@@ -312,7 +320,7 @@ export const savingTransactions = [
     type: "debit",
     description: "USDT Transfer to Trading Wallet",
     transac: "Transfer",
-    amount: 5000,
+    amount: 51128,
   },
   {
     id: 9,
@@ -499,7 +507,7 @@ export const timeOptions = [
   { id: 2, label: "Last 3 Months", value: "90" },
   { id: 3, label: "Last 6 Months", value: "180" },
   { id: 4, label: "Last 12 Months", value: "365" },
-  { id: 4, label: "Previous Years", value: "730" },
+  // { id: 4, label: "Previous Years", value: "730" },
 ];
 
 // Selected By Debit Or Credit
