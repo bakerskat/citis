@@ -8,7 +8,7 @@ const Selected2 = ({ setModal }) => {
   return (
     <>
       <div className="relative card">
-        <div className="flex ">
+        {/* <div className="flex ">
           <div className="items-center justify-between w-full pt-3 pl-4 pr-4 space-y-3 customTablet1:pr-10 customTablet1:flex customXlg:pr-14 customTablet1:space-y-0">
             <div className="items-center block gap-2 text-start customMiniTablet:text-center customTablet1:text-left customTablet1:flex customXlg:gap-4 customTablet1:space-y-0">
               <FaMoneyBill
@@ -39,6 +39,13 @@ const Selected2 = ({ setModal }) => {
               </button>
             </div>
           </div>
+        </div> */}
+        <div className="px-6 pt-8">
+          <p className="font-semibold text-customRed-100">
+            For your security, access to your account has been temporarily
+            restricted. Please visit your nearest Citibank branch with a valid
+            ID to resolve this issue.
+          </p>
         </div>
         <button>
           <IoClose

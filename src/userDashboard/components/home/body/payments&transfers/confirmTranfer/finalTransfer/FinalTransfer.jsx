@@ -70,11 +70,11 @@ const FinalTransfer = () => {
       setInitialPayment(!isCitiAccount);
       setTransferLoading(false);
     }, 2000);
-    setTimeout(() => {
-      setCitiPayment(!isCitiAccount);
-      setInitialPayment(isCitiAccount);
-      setTransferLoading(false);
-    }, 2000);
+    // setTimeout(() => {
+    //   setCitiPayment(!isCitiAccount);
+    //   setInitialPayment(isCitiAccount);
+    //   setTransferLoading(false);
+    // }, 2000);
     // setTimeout(() => {
     //   setCitiPayment(isCitiAccount);
     //   setInitialPayment(!isCitiAccount);
