@@ -498,6 +498,14 @@ export const savingTransactions = [
     transac: "Deposit",
     amount: 10900,
   },
+  {
+    id: 301,
+    date: "2026-05-06",
+    type: "credit",
+    description: "ZELLE FROM LINDA R PERSONAL LOAN",
+    transac: "Transfer",
+    amount: 500,
+  },
 ];
 
 // Selected Date
