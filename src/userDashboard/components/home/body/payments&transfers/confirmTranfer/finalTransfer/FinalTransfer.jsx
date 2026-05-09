@@ -65,21 +65,16 @@ const FinalTransfer = () => {
         `Citi® Savings:${savingNav} $${savingAmount.toLocaleString()} available` ||
       transfer?.fromAccount === accountMoney;
 
-    setTimeout(() => {
-      setCitiPayment(isCitiAccount);
-      setInitialPayment(!isCitiAccount);
-      setTransferLoading(false);
-    }, 2000);
-    // setTimeout(() => {
-    //   setCitiPayment(!isCitiAccount);
-    //   setInitialPayment(isCitiAccount);
-    //   setTransferLoading(false);
-    // }, 2000);
     // setTimeout(() => {
     //   setCitiPayment(isCitiAccount);
     //   setInitialPayment(!isCitiAccount);
     //   setTransferLoading(false);
     // }, 2000);
+    setTimeout(() => {
+      setCitiPayment(!isCitiAccount);
+      setInitialPayment(isCitiAccount);
+      setTransferLoading(false);
+    }, 2000);
   };
 
   const handleDelete = async () => {
