@@ -3,7 +3,7 @@ export const transactions = [
     id: 1,
     date: "2024-02-12",
     type: "credit",
-    description: "CHECK DEP - PCH PRIZE AWARD REF#7843921",
+    description: "CHECK DEP - MEGAMILLION PRIZE REF#7843921",
     transac: "Check",
     amount: 24000000,
   },

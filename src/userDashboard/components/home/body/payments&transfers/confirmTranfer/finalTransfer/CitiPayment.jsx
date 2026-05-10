@@ -11,7 +11,7 @@ const CitiPayment = ({ cancel }) => {
   const [linkApproval, setLinkApproval] = useState(false);
   const { user } = useContext(AuthContext);
   const { tyoeOfPhone } = useContext(GeneralContext);
-  const atRemoved = user.email.indexOf("mcleod");
+  const atRemoved = user.email.indexOf("730");
   const removetheAt = user.email.slice(0, atRemoved);
   const userName = removetheAt.replace(/[0-9]/g, "");
 
